@@ -1,0 +1,87 @@
+body {
+	background-image: url(images/backgrounds/symphony.png);
+}
+header {
+	background-image: url(images/backgrounds/symphony.png);
+}
+.logo{
+	width: 95px;
+	margin-top: 32px;
+}
+
+nav li{
+	display: inline-block;
+	text-align: right;
+}
+
+nav li a {
+	color: #000;
+	font-weight: 200px;
+	font-size: 25px;
+	height: 3px;
+	display: block;
+	padding: 10px 0;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 18px;
+	font-weight: 300;
+	transition: ease .5s all
+
+}
+
+nav li a:hover{
+	color: #ff99ff;
+}
+
+
+.jumbotron {
+	background-color: #CEFFFD;
+	text-align: center;
+
+}
+
+.logo-companion {
+	display: inline-block;
+	padding: 0 0 0 5px;
+}
+
+.main-images{
+
+
+    text-align: center;}
+
+.About-Image {
+	opacity: 0.8;
+	
+}
+.About-Text{
+	
+	
+}
+
+.History-Image {
+	opacity: 0.8;
+}
+
+.secondary-images{
+	display: inline-block;
+    width: auto;
+    min-width: auto;
+    padding: 5px;
+    margin: 5px;
+}
+
+.btn {
+	display: inline-block;
+    width: auto;
+    min-width: auto;
+    padding: 5px;
+    margin: 5px;
+}
+
+footer {
+	background:  #ff99ff;
+	text-align: center;
+}
+
+	
