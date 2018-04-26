@@ -5,13 +5,17 @@ header {
 	background-image: url(images/backgrounds/symphony.png);
 }
 .logo{
-	width: 95px;
+	width: 50px;
 	margin-top: 32px;
 }
+
+
+
 
 nav li{
 	display: inline-block;
 	text-align: right;
+	
 }
 
 nav li a {
@@ -22,11 +26,10 @@ nav li a {
 	display: block;
 	padding: 10px 0;
 	text-decoration: none;
-	text-transform: uppercase;
+	text-transform: lowercase;
 	font-size: 18px;
 	font-weight: 300;
-	transition: ease .5s all
-
+	transition: ease .5s all;
 }
 
 nav li a:hover{
@@ -37,7 +40,12 @@ nav li a:hover{
 .jumbotron {
 	background-color: #CEFFFD;
 	text-align: center;
+}
 
+.jumbotron p {
+	text-transform: uppercase;
+	text-weight: 800;
+	text-shadow: 2px 2px 4px #ccc;
 }
 
 .logo-companion {
@@ -45,31 +53,85 @@ nav li a:hover{
 	padding: 0 0 0 5px;
 }
 
-.main-images{
 
 
-    text-align: center;}
-
-.About-Image {
-	opacity: 0.8;
-	
-}
-.About-Text{
-	
-	
+.cupcakes {
+	opacity: 0.7;
+	padding-right: 100px;
+	padding-top: 100px;
 }
 
-.History-Image {
-	opacity: 0.8;
+
+.coffee {
+	opacity: 0.7;
+	padding-left: 100px;
+	padding-top: 100px;
 }
 
-.secondary-images{
-	display: inline-block;
-    width: auto;
-    min-width: auto;
-    padding: 5px;
-    margin: 5px;
+.centered-text-1{
+	position: absolute;
+	top: 50%;
+	left:50%;
+	transform: translate(-50%, -50%);
 }
+
+.centered-text-2{
+	position: absolute;
+	top: 50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+}
+
+/*About*/
+.centered-text-1 h2 {
+	color: #fff;
+	text-align: right;
+	padding-top: 60px;
+	padding-right: 190px;
+	text-shadow: 2px 2px 4px #000000;
+	font-size: 40px;
+
+}
+
+.centered-text-1 p {
+	color: #fff;
+	text-align: center;
+	font-weight: 800;
+	font-size: 20px;
+	padding-left: 100px;
+	padding-bottom: 15px;
+	text-shadow: 2px 2px 4px #000000;
+}
+
+/*History*/
+.centered-text-2 h2 {
+	color: #fff;
+	text-align: left;
+	padding-top: 50px;
+	text-shadow: 2px 2px 4px #000000;
+	font-size: 40px;
+
+}
+
+.centered-text-2 p {
+	color: #fff;
+	text-align: center;
+	font-weight: 800;
+	font-size: 20px;
+	padding-bottom: 60px;
+	padding-right: 100px;
+	text-shadow: 2px 2px 4px #000000;
+}
+
+
+
+
+
+
+#gallery-images-1 {
+	padding-top: 100px;
+}
+
 
 .btn {
 	display: inline-block;
@@ -77,11 +139,34 @@ nav li a:hover{
     min-width: auto;
     padding: 5px;
     margin: 5px;
+    text-transform: lowercase;
+    color: #0deae4;
+    font-weight: 700;
+}
+
+.lead {
+	font-weight: 700;
+}
+
+.alert-heading {
+	font-weight: 400;
 }
 
 footer {
 	background:  #ff99ff;
 	text-align: center;
+	font-weight: 600;
 }
 
-	
+ footer h3 {
+ 	text-align: center;
+ 	padding-top: 20px;
+ }
+
+footer img{
+	padding: 20px;
+}
+
+
+
+ 
